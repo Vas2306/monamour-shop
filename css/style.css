@@ -1,0 +1,23 @@
+:root{
+    --background-color: #F5F5F5;
+    --background-accent: #FFFFFF;
+    --deep-black: #000000;
+    --black: #313131;
+    --black-grey: #414141;
+    --grey: #666666;
+    --accent: #F59BAF;
+}
+body{
+    background-color: var(--background-color);
+    color: var(--deep-black);
+}
+.list{
+    list-style: none;
+}
+
+.experiment{
+    color: blue;
+}
+.experiment:hover{
+    color: tomato;
+}
