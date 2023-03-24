@@ -10,11 +10,80 @@
 body{
     background-color: var(--background-color);
     color: var(--deep-black);
+    font-family: 'Open Sans', sans-serif;
 }
 .list{
     list-style: none;
+   
 }
-
+.link{
+    text-decoration: none;
+}
+.header-link{
+font-family: 'Inter', sans-serif;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        color: inherit;
+}
+.sale-title{
+font-size: 60px;
+    line-height: 1.37;
+    color: var(--accent);
+}
+.sale-text{
+    font-size: 26px;
+        line-height: 1.38;
+        color: var(--grey);
+}
+.product-title{
+    font-weight: 400;
+        font-size: 46px;
+        line-height: 1.37;
+}
+.product-subtitle{
+    font-weight: 400;
+        font-size: 32px;
+        line-height: 1.38;
+        color: var(--black);
+}
+.product-text{
+    font-size: 22px;
+        line-height: 1.36;
+}
+.product-text.text-grey{
+    color: var(--black-grey);
+}
+.product-promocode{
+    font-weight: 700;
+        font-size: 48px;
+        line-height: 1.35;
+}
+.service-text{
+    font-size: 14px;
+        line-height: 1.36;
+        color: var(--black-grey);
+}
+.header-link{
+    font-weight: 400;
+        font-size: 20px;
+        line-height: 1.35;
+        font-style: normal;
+    color: inherit;
+}
+.header-mailto{
+    font-weight: 400;
+        font-size: 20px;
+        line-height: 1.2;
+        font-style: normal;
+        color: inherit;
+}
+.button{
+    font-weight: 400;
+        font-size: 26px;
+        line-height: 1.35;
+        color: var(--black);
+}
 .experiment{
     color: blue;
 }
