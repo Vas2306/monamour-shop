@@ -27,14 +27,14 @@
           <ul class="list header-list">
             <li>
               <a href="" aria-label="instagram">
-                <svg width="50" height="50">
+                <svg class="footer-media" width="50" height="50">
                   <use href="images/symbol-defs.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="" aria-label="telegram">
-                <svg width="48" height="48">
+                <svg class="footer-media" width="48" height="48">
                   <use href="images/symbol-defs.svg#telegram"></use>
                 </svg>
               </a>
@@ -68,7 +68,7 @@
               <div>
                 <h3 class="product-subtitle">ТРЕНЧ "ЧИКАГО" ПЕСОЧНЫЙ+МЯТА</h3>
                 <p class="product-text text-grey">
-                  <span
+                  <span class="footer-media"
                     ><svg width="30" height="27">
                       <use
                         href="images/symbol-defs.svg#icon-product"
@@ -89,7 +89,7 @@
                   БРЮКИ "ТИНА" КОЖАНЫЕ КОРИЧНЕВЫЙ
                 </h3>
                 <p class="product-text text-grey">
-                  <span
+                  <span class="footer-media"
                     ><svg width="30" height="27">
                       <use
                         href="images/symbol-defs.svg#icon-product"
@@ -107,8 +107,8 @@
               <img src="images/03-min.jpg" width="544" height="675" alt="" />
               <div>
                 <h3 class="product-subtitle">ЮБКА "МЕЛИНА" КОЖА ЧЕРНЫЙ</h3>
-                <p class="product-text text-grey">
-                  <span
+               <p class="product-text text-grey">
+                  <span class="footer-media"
                     ><svg width="30" height="27">
                       <use
                         href="images/symbol-defs.svg#icon-product"
@@ -126,54 +126,95 @@
           <div class="wrapper-center-btn">
             <a class="button link product-btn" href="">В КАТАЛОГ</a>
           </div>
-          
         </div>
       </section>
 
       <section class="service">
-        <ul class="list">
-          <li>
-            <svg width="47" height="46"></svg>
-            <p class="service-text">Возврат/Обмен</p>
-          </li>
-          <li>
-            <svg width="30" height="30"></svg>
-            <p class="service-text">Доставка осуществляется по всему миру</p>
-          </li>
-          <li>
-            <svg width="46" height="46"></svg>
-            <p class="service-text">Оплата картой, наложенный платеж</p>
-          </li>
-          <li>
-            <svg width="46" height="46"></svg>
-            <p class="service-text">
-              Гарантия вашего заказа до получения. Мы страхуем каждый заказ
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="list service-list">
+            <li class="service-text">
+              <span class="service-logo">
+                <svg width="47" height="46">
+                  <use href="images/symbol-defs.svg#Regroup"></use>
+                </svg>
+              </span>
+              Возврат/Обмен
+            </li>
+            <li class="service-text">
+              <span class="service-logo">
+                <svg width="30" height="30">
+                  <use href="images/symbol-defs.svg#Regroup"></use>
+                </svg>
+              </span>
+              Доставка осуществляется по всему миру
+            </li>
+            <li class="service-text double">
+             
+                <svg class="service-logo" width="46" height="46">
+                  <use href="images/symbol-defs.svg#credit-card"></use>
+                </svg>
+           
+              <div>
+                <p>Оплата картой, </p>
+                <p>наложенный платеж</p>
+              </div>
+              
+              
+            </li>
+            <li class="service-text double">
+            
+                <svg  class="service-logo" width="46" height="46">
+                  <use href="images/symbol-defs.svg#Chield-check"></use>
+                </svg>
+             
+              <div>
+                <p>  Гарантия вашего заказа до получения. </p>
+                <p>Мы страхуем каждый заказ</p>
+              </div>
+            
+              
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer>
-      <a href="">
-        <img src="images/logo.svg" width="124" height="99" alt="" />
+
+    <footer class="footer">
+      <div class="container footer-wrapper">
+   <a class="footer-logo" href="">
+        <img  src="images/logo.svg" width="124" height="99" alt="" />
       </a>
-      <address class="header">
-        <a class="link header-link" href="mailto:sales@monamourplus.ru"
-          ><svg width="30" height="30"></svg>sales@monamourplus.ru</a
+      <address>
+        <a class="link header-link footer-address" href="mailto:sales@monamourplus.ru"
+          ><svg class="footer-social" width="30" height="30">
+            <use href="images/symbol-defs.svg#email"></use>
+          </svg>sales@monamourplus.ru</a
         >
-        <a class="link header-link" href="tel:+74951281871"
-          ><svg width="23" height="23"></svg>+7 495 128-18-71</a
+        <a class="link header-link footer-address" href="tel:+74951281871"
+          ><svg class="footer-social" width="23" height="23">
+            <use href="images/symbol-defs.svg#phone"></use>
+            
+          </svg>+7 495 128-18-71</a
         >
-        <a class="header-mailto" href="mailto:monamourplus.ru"
+        <a class="header-mailto footer-address" href="mailto:monamourplus.ru"
           >monamourplus.ru</a
         >
       </address>
-      <a href="" aria-label="instagram">
-        <svg width="50" height="50"></svg>
+      <div>
+        <a class="footer-instagram link" href="" aria-label="instagram">
+        <svg class="footer-media" width="50" height="50">
+          <use href="images/symbol-defs.svg#instagram"></use>
+        </svg>
       </a>
       <a href="" aria-label="telegram">
-        <svg width="48" height="48"></svg>
-      </a>
+        <svg class="footer-media" width="48" height="48">
+          <use href="images/symbol-defs.svg#telegram"></use>
+        </svg>
+      </a> 
+      </div>
+      </div>
+   
+     
     </footer>
   </body>
 </html>
