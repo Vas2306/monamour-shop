@@ -5,114 +5,175 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Monamour</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <a class="experiment" href="">ДЛЯ ЭКСПЕРЕМЕНТА</a>
     <header class="header">
-      <nav>
-        <a href="">
-          <img src="images/logo.svg" width="318" height="253" alt="logo" />
+      <nav class="container nav">
+        <a class="header-logo" href="">
+          <img
+            class="header-logo"
+            src="images/logo.svg"
+            width="318"
+            height="253"
+            alt="logo"
+          />
         </a>
-        <ul class="list">
-          <li>
-            <a href="" aria-label="instagram">
-              <svg width="50" height="50">
-                <use href="images/symbol-defs.svg#instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="" aria-label="telegram">
-              <svg width="48" height="48"></svg>
-            </a>
-          </li>
-        </ul>
-        <a class="header-link" href="">Все акционные товары</a>
+        <div class="header-nav">
+          <ul class="list header-list">
+            <li>
+              <a href="" aria-label="instagram">
+                <svg width="50" height="50">
+                  <use href="images/symbol-defs.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" aria-label="telegram">
+                <svg width="48" height="48">
+                  <use href="images/symbol-defs.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <a class="header-link" href="">Все акционные товары</a>
+        </div>
       </nav>
     </header>
-<main>
- <section class="sale">
-      <h1 class="sale-title">SALE SALE SALE</h1>
-      <p class="sale-text">
-        Скидка на летний ассортимент до 10%. На сезон зима/осень до 25%. Выгода
-        до 3000Rub/140BYN Промокод МонАмурочка
-      </p>
-      <a class="button link" href="">К ПОКУПКАМ</a>
-    </section>
+    <main>
+      <section class="sale">
+        <div class="container">
+          <div class="sale-plate">
+            <h1 class="sale-title">SALE SALE SALE</h1>
+            <p class="sale-text">
+              Скидка на летний ассортимент до 10%. На сезон зима/<br />осень до
+              25%. Выгода до 3000Rub/140BYN<br />
+              Промокод МонАмурочка
+            </p>
+            <a class="button link sale-btn" href="">К ПОКУПКАМ</a>
+          </div>
+        </div>
+      </section>
 
-    <section class="product">
-      <h2 class="product-title">Колличество ограничено!</h2>
-      <ul class="list">
-        <li>
-          <img src="images/01-min.jpg" width="544" height="675" alt="" />
-          <h3 class="product-subtitle">ТРЕНЧ "ЧИКАГО" ПЕСОЧНЫЙ+МЯТА</h3>
-          <svg></svg>
-          <p class="product-text text-grey">Подбор по индивидуальным параметрам</p>
-          <p class="product-text">Ваш промокод</p>
-          <p class="product-promocode">32ILF34<p>
-          <a class="button link" href="">ПРИМЕНИТЬ ПРОМОКОД</a>
-        </li>
-        <li>
-          <img src="images/02-min.jpg" width="544" height="675" alt="" />
-          <h3 class="product-subtitle">БРЮКИ "ТИНА" КОЖАНЫЕ КОРИЧНЕВЫЙ</h3>
-          <svg></svg>
-          <p class="product-text text-grey">Подбор по индивидуальным параметрам</p>
-          <p class="product-text">Ваш промокод</p>
-          <p class="product-promocode">32ILF34</p>
-          <a class="button link" href="">ПРИМЕНИТЬ ПРОМОКОД</a>
-        </li>
-        <li>
-          <img src="images/03-min.jpg" width="544" height="675" alt="" />
-          <h3 class="product-subtitle">ЮБКА "МЕЛИНА" КОЖА ЧЕРНЫЙ</h3>
-          <svg></svg>
-          <p class="product-text text-grey">Подбор по индивидуальным параметрам</p>
-          <p class="product-text">Ваш промокод</p>
-          <p class="product-promocode">32ILF34</p>
-          <a class="button link" href="">ПРИМЕНИТЬ ПРОМОКОД</a>
-        </li>
-      </ul>
-      <a class="button link" href="">В КАТАЛОГ</a>
-    </section>
+      <section class="product">
+        <div class="container">
+          <h2 class="product-title">Колличество ограничено!</h2>
+          <ul class="list product-list">
+            <li class="product-item">
+              <img src="images/01-min.jpg" width="544" height="675" alt="" />
+              <div>
+                <h3 class="product-subtitle">ТРЕНЧ "ЧИКАГО" ПЕСОЧНЫЙ+МЯТА</h3>
+                <p class="product-text text-grey">
+                  <span
+                    ><svg width="30" height="27">
+                      <use
+                        href="images/symbol-defs.svg#icon-product"
+                      ></use></svg></span
+                  >Подбор по индивидуальным <br />параметрам
+                </p>
+                <p class="product-text">Ваш промокод</p>
+                <p class="product-promocode">32ILF34</p>
+                <a class="button link product-btn" href=""
+                  >ПРИМЕНИТЬ ПРОМОКОД</a
+                >
+              </div>
+            </li>
+            <li class="product-item">
+              <img src="images/02-min.jpg" width="544" height="675" alt="" />
+              <div>
+                <h3 class="product-subtitle">
+                  БРЮКИ "ТИНА" КОЖАНЫЕ КОРИЧНЕВЫЙ
+                </h3>
+                <p class="product-text text-grey">
+                  <span
+                    ><svg width="30" height="27">
+                      <use
+                        href="images/symbol-defs.svg#icon-product"
+                      ></use></svg></span
+                  >Подбор по индивидуальным <br />параметрам
+                </p>
+                <p class="product-text">Ваш промокод</p>
+                <p class="product-promocode">32ILF34</p>
+                <a class="button link product-btn" href=""
+                  >ПРИМЕНИТЬ ПРОМОКОД</a
+                >
+              </div>
+            </li>
+            <li class="product-item">
+              <img src="images/03-min.jpg" width="544" height="675" alt="" />
+              <div>
+                <h3 class="product-subtitle">ЮБКА "МЕЛИНА" КОЖА ЧЕРНЫЙ</h3>
+                <p class="product-text text-grey">
+                  <span
+                    ><svg width="30" height="27">
+                      <use
+                        href="images/symbol-defs.svg#icon-product"
+                      ></use></svg></span
+                  >Подбор по индивидуальным <br />параметрам
+                </p>
+                <p class="product-text">Ваш промокод</p>
+                <p class="product-promocode">32ILF34</p>
+                <a class="button link product-btn" href=""
+                  >ПРИМЕНИТЬ ПРОМОКОД</a
+                >
+              </div>
+            </li>
+          </ul>
+          <div class="wrapper-center-btn">
+            <a class="button link product-btn" href="">В КАТАЛОГ</a>
+          </div>
+          
+        </div>
+      </section>
 
-    <section class="service">
-      <ul class="list">
-        <li>
-          <svg width="47" height="46"></svg>
-          <p class="service-text">Возврат/Обмен</p>
-        </li>
-        <li>
-          <svg width="30" height="30"></svg>
-          <p class="service-text">Доставка осуществляется по всему миру</p>
-        </li>
-        <li>
-          <svg width="46" height="46"></svg>
-          <p class="service-text">Оплата картой, наложенный платеж</p>
-        </li>
-        <li>
-          <svg width="46" height="46"></svg>
-          <p class="service-text">Гарантия вашего заказа до получения. Мы страхуем каждый заказ</p>
-        </li>
-      </ul>
-    </section>
-</main>
+      <section class="service">
+        <ul class="list">
+          <li>
+            <svg width="47" height="46"></svg>
+            <p class="service-text">Возврат/Обмен</p>
+          </li>
+          <li>
+            <svg width="30" height="30"></svg>
+            <p class="service-text">Доставка осуществляется по всему миру</p>
+          </li>
+          <li>
+            <svg width="46" height="46"></svg>
+            <p class="service-text">Оплата картой, наложенный платеж</p>
+          </li>
+          <li>
+            <svg width="46" height="46"></svg>
+            <p class="service-text">
+              Гарантия вашего заказа до получения. Мы страхуем каждый заказ
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
     <footer>
-        <a href="">
-      <img src="images/logo.svg" width="124" height="99" alt="" />
-    </a>
-    <address class="header">
-      <a class="link header-link" href="mailto:sales@monamourplus.ru"><svg width="30" height="30"></svg>sales@monamourplus.ru</a>
-      <a class="link header-link" href="tel:+74951281871"><svg width="23" height="23"></svg>+7 495 128-18-71</a>
-      <a class="header-mailto" href="mailto:monamourplus.ru">monamourplus.ru</a>  
-    </address>
-    <a href="" aria-label="instagram">
+      <a href="">
+        <img src="images/logo.svg" width="124" height="99" alt="" />
+      </a>
+      <address class="header">
+        <a class="link header-link" href="mailto:sales@monamourplus.ru"
+          ><svg width="30" height="30"></svg>sales@monamourplus.ru</a
+        >
+        <a class="link header-link" href="tel:+74951281871"
+          ><svg width="23" height="23"></svg>+7 495 128-18-71</a
+        >
+        <a class="header-mailto" href="mailto:monamourplus.ru"
+          >monamourplus.ru</a
+        >
+      </address>
+      <a href="" aria-label="instagram">
         <svg width="50" height="50"></svg>
-    </a>
-     <a href="" aria-label="telegram">
+      </a>
+      <a href="" aria-label="telegram">
         <svg width="48" height="48"></svg>
-    </a>  
+      </a>
     </footer>
-
   </body>
 </html>
