@@ -12,6 +12,9 @@ body{
     background-color: var(--background-color);
     color: var(--deep-black);
     font-family: 'Open Sans', sans-serif;
+background-image: url(../images/bgd-min.png);
+    background-repeat: no-repeat;
+    background-position: 50% 73px;
 }
 h1,h2,h3,h4,h5,h6,p{
     margin-top: 0;
@@ -103,6 +106,7 @@ font-family: 'Inter', sans-serif;
     font-style: normal;
     color: inherit;
 }
+
 .sale-plate {
     width: 1144px;
     height: 472px;
