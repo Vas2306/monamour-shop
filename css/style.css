@@ -6,6 +6,7 @@
   --black-grey: #414141;
   --grey: #666666;
   --accent: #f59baf;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 body {
   background-color: var(--background-color);
@@ -35,7 +36,6 @@ img {
 }
 .link {
   text-decoration: none;
-  /* display: inline-block; */
 }
 .container {
   width: 1180px;
@@ -52,6 +52,7 @@ img {
   min-width: 412px;
   color: var(--black);
   border: 3px solid var(--deep-black);
+  transition: background-color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 .button:hover,
 .button:focus {
@@ -61,15 +62,7 @@ img {
 .header {
   padding-top: 66px;
   padding-bottom: 68px;
-  /* margin-right: auto;
-    margin-left: auto;
-text-align: center; */
 }
-/* .header .nav{
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-} */
 .header-logo {
   margin-bottom: 71px;
   margin-right: auto;
@@ -189,7 +182,7 @@ text-align: center; */
   left: 0;
  
   opacity: 0;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms var(--timing-function), opacity 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
   background-color: rgba(255, 255, 255, 0.8);
 }
 .product-item:nth-child(even) .product-overlay{
